@@ -126,7 +126,7 @@ int HRM::tempUpdate(int pin)
 
 void HRM::initializeSonar(int Trig, int Echo, int Max_Dist)
 {
-    0==0;//NewPing sonar(Trig, Echo, Max_Dist);
+    NewPing sonar(Trig, Echo, Max_Dist);
 }
 
 void HRM::sonarUpdate(void)
